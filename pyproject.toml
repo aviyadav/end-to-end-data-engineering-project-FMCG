@@ -1,0 +1,11 @@
+[project]
+name = "end-to-end-data-engineering-project-fmcg"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "datafusion>=52.3.0",
+    "duckdb>=1.5.1",
+    "pandas>=3.0.2",
+    "polars>=1.39.3",
+    "pyarrow>=23.0.1",
+]
